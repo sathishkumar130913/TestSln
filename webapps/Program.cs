@@ -7,11 +7,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace webapp
+namespace webapps
 {
     public class Program
     {
-        [STAThread]
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
