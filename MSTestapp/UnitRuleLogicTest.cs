@@ -9,9 +9,9 @@ namespace Jenkins.TestApp
     {
         RuleLogic  objRulelogic= new RuleLogic();
 
-       [DataTestMethod]
+       [DataTestMethod]       
        [DataRow(5,5,10)]
-       [DataRow(12, 8, 20)]
+       [DataRow(12, 8, 20)]       
         public void ValidateAdd(int a ,int b ,int expeted)
         {
             var actual = objRulelogic.Sumlogic(a, b);
